@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>contact</title>
+    <style>
+      nav {
+        overflow: hidden;
+        background-color: #179768c5;
+      }
+
+      nav a {
+        float: left;
+        text-align: center;
+        color: rgb(237, 252, 31);
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      nav a:hover {
+        background-color: #aeceb5;
+      }
+
+      .container {
+        background-color: #aeceb5;
+        padding: 50px;
+      }
+      input,
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        margin-left: 6px;
+        margin-right: 6px;
+        resize: vertical;
+      }
+      button {
+        background-color: #04aa6d;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #193ace;
+      }
+      footer {
+        padding: 50px;
+        background-color: #179768c5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <a href="/home.html">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/work.html">Work</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <section class="container">
+      <div>
+        <h2>Contact Us</h2>
+        <p>Leave us a message</p>
+        <div>
+          <label>First Name</label>
+          <input type="text" name="firstname" placeholder="Your name.." />
+          <label>Last Name</label>
+          <input type="text" name="lastname" placeholder="Your last name.." />
+          <label>Country</label>
+          <select name="country">
+            <option value="Algeria">Algeria</option>
+            <option value="Libya">Libya</option>
+            <option value="Morocco">Morocco</option>
+            <option value="Tunisia">Tunisia</option>
+          </select>
+          <label>Subject</label>
+          <textarea name="subject" placeholder="Write something.."></textarea>
+          <button type="submit">Submit</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>abdelmejid.zlitni@gmail.com</p>
+      <p>+216 24701290</p>
+    </footer>
+  </body>
+</html>
